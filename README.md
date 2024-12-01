@@ -5,7 +5,7 @@ A Python-based scraper using Playwright and AgentQL to extract problem data from
 ## Prerequisites
 
 - Python 3.12+
-- pip (Python package installer)
+- Poetry
 - Git
 
 ## Setup
