@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "leetcode-scraper"
+version = "0.1.0"
+description = "A script to scrape LeetCode study plan"
+authors = ["Your Name"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+playwright = "^1.49.0"
+pandas = "^2.2.3"
+selenium = "^4.27.1"
+webdriver-manager = "^4.0.2"
+polars = "^1.16.0"
+jupyter = "^1.1.1"
+agentql = "^1.6.1"
+xlsxwriter = "^3.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
